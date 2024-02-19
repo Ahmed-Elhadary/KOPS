@@ -71,8 +71,8 @@ $(document).ready(function(){
     let viewHeight = window.innerHeight;
     $(window).on('scroll',function () {
        $(window).scrollTop() > (viewHeight -100 ) ? $('.navWrapper').addClass('sticky') : $('.navWrapper').removeClass('sticky');
-       $(window).scrollTop() > (viewHeight -100 ) ? $('.navbar-section .logo img').attr('src', 'images/logo.png') : $('.navbar-section .logo img').attr('src', 'images/Logo_white.png')
-       $(window).scrollTop() > (viewHeight -100 ) ? $('.navbar-section.black .logo img').attr('src', 'images/logo.png') : $('.navbar-section.black .logo img').attr('src', 'images/logo.png')
+       $(window).scrollTop() > (viewHeight -100 ) ? $('.navbar-section .logo img').attr('src', 'images/Logo.png') : $('.navbar-section .logo img').attr('src', 'images/Logo_white.png')
+       $(window).scrollTop() > (viewHeight -100 ) ? $('.navbar-section.black .logo img').attr('src', 'images/Logo.png') : $('.navbar-section.black .logo img').attr('src', 'images/Logo.png')
        
     });
     
