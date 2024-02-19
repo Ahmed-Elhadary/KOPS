@@ -1,0 +1,8 @@
+body {
+    font-family: "Inter", sans-serif;
+    direction: rtl;
+    text-align: right;
+    overflow-x: hidden;
+    color: #333333;
+    background: #f9f9f9;
+}
