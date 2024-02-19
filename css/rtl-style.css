@@ -6,3 +6,94 @@ body {
     color: #333333;
     background: #f9f9f9;
 }
+.navMenu a::before{
+    left: initial;
+    right: 0;
+}
+.about .images .image2 img {
+    left: initial;
+    right: 0;
+}
+.select-date input{
+    flex-direction: row-reverse;
+    text-align: end;
+}
+.application .select-date label {
+    border-right: 1px solid #eaecef;
+    border-radius: 0 5px 5px 0;
+    border-left: 0;
+}
+.application label[for="et_pb_contact_brand_file_request_0"]:after{
+    right: initial;
+    left: 20px;
+}
+
+
+
+.about .images .image1 img {
+    left: initial;
+    right: 280px;
+}
+
+
+@media screen and (max-width:1300px) {
+
+    .about .images .image1 img {
+        left: initial;
+        right: 255px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .about .images .image1 img {
+        left: initial;
+        right: 185px;
+    }
+}
+@media screen and (max-width:992px) {
+    .about .images .image1 img {
+        left: initial;
+        right: 290px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .about .images .image1 img {
+        left: initial;
+        right: 255px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .about .images .image1 img {
+        left: initial;
+        right: 205px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .about .images .image1 img {
+        left: initial;
+        right: 175px;
+    }
+}
+@media screen and (max-width:450px) {
+
+    .about .images .image1 img {
+        left: initial;
+        right: 150px;
+    }
+}
+@media screen and (max-width:380px) {
+
+    .about .images .image1 img {
+        left: initial;
+        right: 120px;
+    }
+}
+@media screen and (max-width:340px) {
+    .about .images .image1 img {
+        left: initial;
+        right: 100px;
+    }
+}

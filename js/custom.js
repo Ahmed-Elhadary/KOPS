@@ -1,12 +1,11 @@
 
 $(document).ready(function(){
-    // Adding the class on click
+    
     $(".search-box").click(function(e){
-        e.stopPropagation(); // Prevents the click event from propagating to the document
+        e.stopPropagation(); 
         $(this).addClass('clicked');
     });
 
-    // Removing the class when clicking outside of the element
     $(document).click(function(e) {
         if (!$(e.target).closest('.search-box').length) {
             $(".search-box").removeClass('clicked');
@@ -112,34 +111,6 @@ $(document).ready(function(){
         });
     });
     
-    // Go through a sentence, wrap its characters with spans
-    function setUpCharacters() {
-        var $sentences = $('.header h1');
-
-        // Run for each sentence
-        $sentences.each(function () {
-            var $sentence = $(this);
-            var newContent = '';
-
-            // Go through all characters of the sentence
-            var x = 0.1;
-            for (let i = 0; i < $sentence.text().length; i++) {
-                var substring = $sentence.text().substr(i, 1);
-
-                // If we have a character, wrap it
-                if (substring != " ") {
-                    newContent += '<span style="animation-delay:'+x+'s">' + substring + '</span>';
-                    x = x + 0.2;
-                } else {
-                    newContent += substring;
-                }
-            }
-
-            // Replace content
-            $sentence.html(newContent);
-        });
-    }
-    setUpCharacters();
 
     setTimeout(function(){
         $('.header p').addClass('show');
