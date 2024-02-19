@@ -2377,6 +2377,10 @@ p {
     .sticky{
         padding: 10px 7.5%;
     }
+    .copyright p {
+        line-height: 20px !important;
+        padding-top: 10px;
+    }
 }
 
 @media screen and (max-width:450px) {
