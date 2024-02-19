@@ -658,6 +658,11 @@ p {
         background: #333333;
     }
 
+    .navbar-section.black .menuBtn span {
+        background: #333333;
+    }
+
+
     .menuBtn:hover span {
         background: #0b42cd;
     }
@@ -869,7 +874,7 @@ p {
     height: 30px;
     line-height: 30px;
     position: absolute;
-    bottom: 13px;
+    top: 50%;
     font-size: 14px;
     color: white;
     font-weight: 500;
@@ -878,6 +883,7 @@ p {
     margin-right: auto;
     text-align: center;
     cursor: pointer;
+    transform: translateY(-50%);
 }
 
 .application label[for="et_pb_contact_brand_request_0"]:after {
@@ -2159,6 +2165,12 @@ p {
         left: 255px;
     }
 }
+@media screen and (max-width:1160px) {
+    .application .et_pb_contact_form_label {
+        width: 70%;
+    }
+
+}
 
 @media screen and (max-width:1150px) {
 
@@ -2200,6 +2212,28 @@ p {
     .footer .links {
         margin-top: 35px;
     }
+    .application.secPadding {
+        padding: 0px 20px;
+    }
+    .navbar-section.black.white .menu-search .search-box .search-btn {
+        color: #333333;
+    }
+    .navbar-section.black.white .menu-search .lang button {
+        color: #333333;
+    }
+    .application .application-content{
+        flex-direction: column-reverse;
+    }
+    .application .image-sec img {
+        height: 500px;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .application .application-form {
+        margin-top: 20px;
+    }
+    
+    
 
 }
 
@@ -2219,6 +2253,9 @@ p {
 
     .secHead {
         margin-bottom: 0;
+    }
+    .application.secPadding {
+        padding: 0px 10px;
     }
 
     .about .images .image1 img,
@@ -2437,3 +2474,4 @@ p {
         top: 60px;
     }
 }
+
