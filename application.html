@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome/css/brands.css">
+    <link rel="stylesheet" href="fontawesome/css/solid.css">
+    <link rel="stylesheet" href="plugins/animation/animate.min.css">
+    <link rel="stylesheet" href="plugins/owlCarousel/owl.carousel.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="images/xIcon.ico" type="image/x-icon" />
+    <title> KOPS </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- <div class="loader">
+        <div class="loaderBox">
+            <img src="images/logo.png" alt="logo">
+            <div class="loaderBar"></div>
+        </div>
+    </div> -->
+    <!-- navbar -->
+    <section class="navbar-section black white" id="home">
+        <div class="container">
+            <div class="navWrapper">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <div class="headerNav">
+                    <div class="navMenu">
+                        <ul>
+                            <li> <a href="index.html" data-text="home"> home </a></li>
+                            <li> <a href="#services" data-text="services"> Services </a></li>
+                            <li> <a href="#about" data-text="About us"> About us </a></li>
+                            <li> <a href="contact.html" data-text="contact us"> Contact </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mb">
+                        <div class="menuBtn"> <span></span> <span></span> <span></span></div>
+                        <div class="bodyOverlay"></div>
+                    </div>
+                </div>
+                <div class="menu-search">
+                    <div class="search">
+
+                        <div class="search-box">
+                            <input class="search-input" type="text" name="" placeholder="Search...">
+                            <a class="search-btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="dropdown lang">
+                        <button class=" dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fa-solid fa-globe"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Arabic</a>
+                            <a class="dropdown-item" href="#">English</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Application -->
+    <section class="application secPadding ">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="application-form p-3">
+                        <h2>Personal Information</h2>
+                        <p>Enter your Personal Information please</p>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Enter your Full Name *" class="form-control"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select class="form-control js-example-basic-single" required>
+                                            <option value="" selected>Select your Gander * </option>
+                                            <option value="1">Male</option>
+                                            <option value="2">Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group select-date">
+                                  
+                                        <label for="">Select your Date of Birth *</label>
+                                        <input type="date" class="form-control" id="birthdate" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select class="form-control js-example-basic-single" required>
+                                            <option value="" selected>Select your Nationality * </option>
+                                            <option value="AF">Afghan</option>
+                                            <option value="AL">Albanian</option>
+                                            <option value="DZ">Algerian</option>
+                                            <option value="AS">American</option>
+                                            <option value="AD">Andorran</option>
+                                            <option value="AO">Angolan</option>
+                                            <option value="AI">Anguillan</option>
+                                            <option value="AG">Antiguan</option>
+                                            <option value="AR">Argentinian</option>
+                                            <option value="AM">Armenian</option>
+                                            <option value="AW">Aruban</option>
+                                            <option value="AU">Australian</option>
+                                            <option value="AT">Austrian</option>
+                                            <option value="AZ">Azerbaijani</option>
+                                            <option value="BS">Bahamian</option>
+                                            <option value="BH">Bahraini</option>
+                                            <option value="BD">Bangladeshi</option>
+                                            <option value="BB">Barbadian</option>
+                                            <option value="BY">Belarusian</option>
+                                            <option value="BE">Belgian</option>
+                                            <option value="BZ">Belizean</option>
+                                            <option value="BJ">Beninese</option>
+                                            <option value="BM">Bermudian</option>
+                                            <option value="BT">Bhutanese</option>
+                                            <option value="BO">Bolivian</option>
+                                            <option value="BA">Bosnian</option>
+                                            <option value="BW">Botswanan</option>
+                                            <option value="BR">Brazilian</option>
+                                            <option value="VG">British Virgin Islander</option>
+                                            <option value="BN">Bruneian</option>
+                                            <option value="BG">Bulgarian</option>
+                                            <option value="BF">Burkinan</option>
+                                            <option value="BI">Burundian</option>
+                                            <option value="KH">Cambodian</option>
+                                            <option value="CM">Cameroonian</option>
+                                            <option value="CA">Canadian</option>
+                                            <option value="CV">Cape Verdean</option>
+                                            <option value="KY">Cayman Islander</option>
+                                            <option value="CF">Central African</option>
+                                            <option value="TD">Chadian</option>
+                                            <option value="CL">Chilean</option>
+                                            <option value="CN">Chinese</option>
+                                            <option value="CO">Colombian</option>
+                                            <option value="KM">Comoran</option>
+                                            <option value="CG">Congolese</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select class="form-control js-example-basic-single" required>
+                                            <option value="" selected>Select your Marital Status * </option>
+                                            <option value="single">Single</option>
+                                            <option value="married">Married</option>
+                                            <option value="divorced">Divorced</option>
+                                            <option value="widowed">Widowed</option>
+                                            <option value="separated">Separated</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <h2>Address/contact details</h2>
+                                    <p>Enter your Personal Information please</p>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Enter your Email Address *"
+                                            class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Mobile Number / Phone Number"
+                                            class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Street N° *" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Postal Code / City *" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Occupation *" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select class="form-control js-example-basic-single" required>
+                                            <option value="" selected>Education * </option>
+                                            <option value="primary">Primary Education</option>
+                                            <option value="secondary">Secondary Education</option>
+                                            <option value="higher_secondary">Higher Secondary Education</option>
+                                            <option value="undergraduate">Undergraduate Studies</option>
+                                            <option value="graduate">Graduate Studies</option>
+                                            <option value="postgraduate">Postgraduate Studies</option>
+                                            <option value="vocational">Vocational Education</option>
+                                            <option value="technical">Technical Education</option>
+                                            <option value="online">Online Education</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea type="text" placeholder="Other Certifications if available..."
+                                            class="form-control" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select class="form-control js-example-basic-single" required>
+                                            <option value="" selected>Additional Information </option>
+                                            <option value="1">add 1</option>
+                                            <option value="2">add 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <h2>
+                                        Application
+                                    </h2>
+                                    <p>You can upload your application documents here!</p>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="upload-file">
+                                        <label for="et_pb_contact_brand_file_request_0"
+                                            class="et_pb_contact_form_label">PDF (.pdf) and Word file (.doc) are
+                                            required file formats. The maximum file size must not exceed 5 Mb</label>
+                                        <input type="file" id="et_pb_contact_brand_file_request_0" class="file-upload">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <button type="submit" class="siteBtn primaryBtn"> <span> Submit your Application</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-sec">
+                        <img src="images/header.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer  -->
+    <section class="footer" id="footer">
+        <div class="container-fluid secPadding">
+            <div class="footerContent">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="content">
+                            <img src="images/Logo.png" alt="">
+                            <p>We provide the right employee for our customer. Our company is diverse and is
+                                specifically committed to your needs.</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span> Wallersheimer Weg 12-1456070 Koblenz</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-solid fa-clock"></i>
+                                    <span> Wallersheimer Weg 12-1456070 Koblenz</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="links">
+                            <h3>Sections</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Home</a>
+                                </li>
+                                <li>
+                                    <a href="">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="">Our Services</a>
+                                </li>
+                                <li>
+                                    <a href="">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="links">
+                            <h3>Links</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Imprint</a>
+                                </li>
+                                <li>
+                                    <a href="">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="">Disclaimer</a>
+                                </li>
+                                <li>
+                                    <a href="">Privacy & Cookies</a>
+                                </li>
+                                <li>
+                                    <a href="">Permit</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="links social-icon">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li>
+                                    <i class="fab fa-facebook"></i>
+                                    <a href="">Facebook</a>
+                                </li>
+                                <li>
+                                    <i class="fab fa-instagram"></i>
+                                    <a href="">Instagram</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-brands fa-x-twitter"></i>
+                                    <a href="">X</a>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <a href="">LinkedIn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48189.727894388634!2d31.211830943602735!3d30.01608807946801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840ac90c2ed63%3A0x2fdb96e4e9f72e6f!2z2YLZhNi52Kkg2LXZhNin2K0g2KfZhNiv2YrZhiDYp9mE2KPZitmI2KjZig!5e0!3m2!1sen!2seg!4v1708074996280!5m2!1sen!2seg"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Copyright 2023 KOPS - Koblenzer Personal & Sicherheitsdienst GmbH</p>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="plugins/owlCarousel/owl.carousel.min.js"></script>
+    <script src="plugins/animation/wow.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.js-example-basic-single').select2();
+        });
+    </script>
+</body>
+
+</html>
