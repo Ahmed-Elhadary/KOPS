@@ -54,18 +54,6 @@ $(document).ready(function(){
 (function ($) {
     "use strict";
 
-    // // Pre Loading 
-  
-
-    // $(window).on('load', function () { 
-    //     setTimeout(function () {
-    //         $('.loader').fadeOut(3000, function () {
-    //             $('body').removeClass('stopScroll');
-    //             $(this).remove();
-    //         }); 
-    //     },5000);   
-    // });
-
     // sticky navbar
     let viewHeight = window.innerHeight;
     $(window).on('scroll',function () {
