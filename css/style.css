@@ -1177,6 +1177,11 @@ object-fit: cover;
     overflow: hidden;
     margin-top: 90px;
 }
+.services  .image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 
 .secHead {
     display: flex;
@@ -2146,6 +2151,9 @@ object-fit: cover;
     .about .images .image1 img {
         left: 290px;
     }
+    .footer .map ,.footer .links{
+        margin-top: 40px;
+    }
 
 }
 @media screen and (max-width:768px) {
@@ -2157,7 +2165,7 @@ object-fit: cover;
         width: 85%;
     }
     .secPadding {
-        padding: 50px 10px;
+        padding: 10px 10px;
     }
     .secHead{
         margin-bottom: 0;
@@ -2172,6 +2180,34 @@ object-fit: cover;
     .about .images {
         height: 415px;
     }
+    .about .about-desc p {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .services  .image img{
+        height: 400px;
+    }
+    .secHead.secGray h2{
+        margin-bottom: 25px;
+    }
+    .services .item img {
+        width: 40px;
+    }
+    .services .item p {
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .services .contact-link {
+        font-size: 15px;
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .companies .title {
+        width: 90%;
+    }
+    .companies .item {
+        margin-bottom: 15px;
+    }    
 }
 @media screen and (max-width:640px) {
     .about .images .image1 img, .about .images .image2 img {
@@ -2185,3 +2221,58 @@ object-fit: cover;
         height: 365px;
     }
 }
+@media screen and (max-width:520px) {
+    .about .images .image1 img, .about .images .image2 img {
+        width: 235px;
+        height: 235px;
+    }
+    .about .images .image1 img {
+        left: 175px;
+    }
+    .about .images {
+        height: 295px;
+    }
+}
+@media screen and (max-width:450px) {
+    .about .images .image1 img, .about .images .image2 img {
+        width: 200px;
+        height: 200px;
+    }
+    .about .images .image1 img {
+        left: 150px;
+    }
+    .about .images {
+        height: 250px;
+    }
+}
+@media screen and (max-width:380px) {
+    .about .images .image1 img, .about .images .image2 img {
+        width: 175px;
+        height: 175px;
+    }
+    .about .images .image1 img {
+        left: 120px;
+    }
+    .about .images {
+        height: 235px;
+    }
+}
+@media screen and (max-width:340px) {
+    .about .images .image1 img, .about .images .image2 img {
+        width: 145px;
+        height: 145px;
+    }
+    .about .images .image1 img {
+        left: 100px;
+    }
+    .about .images {
+        height: 185px;
+    }
+    .about .images .image2 img {
+        top: 60px;
+    }
+}
+
+
+
+
